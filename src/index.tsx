@@ -26,13 +26,16 @@ const App = () => (
 				{confettiRain()}
 			</div>
 		) : (
-			<h1>No one has a birthday today. Check back tomorrow!</h1>
+			<div>
+				<h1>No one has a birthday today. Check back tomorrow!</h1>
+				<h6>Do you think someone's name should be there? If so, add them <a href="https://github.com/werzq/birthday/edit/main/src/birthdaylist.json" target="_blank">here</a></h6>
+			</div>
 		)}
 	</div>
 );
 
 const Cake = () => (
-	  <img src={cake} alt="cake" height={30} draggable={false} />
+	<img src={cake} alt="cake" height={30} draggable={false} />
 );
 
 render(<App />, document.getElementById('app'));

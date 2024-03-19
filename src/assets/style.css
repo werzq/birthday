@@ -26,6 +26,16 @@ body {
 	text-align: center;
 }
 
+a {
+	color: #d400ff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 0 0 5px #ffffff4e, 0 0 10px #ffffff4e, 0 0 15px #ffffff4e;
+	text-decoration: underline;
+}
+
 @media (max-width: 639px) {
 	#app {
 		margin: 2rem;

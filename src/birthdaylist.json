@@ -1,0 +1,16 @@
+{
+    "people": [
+        {
+            "name": "John Doe",
+            "birthday": "2020-03-18"
+        },
+        {
+            "name": "Jane Smith",
+            "birthday": "2020-03-18"
+        },
+        {
+            "name": "Rihards 🇱🇻",
+            "birthday": "2008-03-19"
+        }
+    ]
+}

@@ -1,16 +1,21 @@
 {
+    "$schema": "./schema.json",
     "people": [
         {
-            "name": "John Doe",
-            "birthday": "2020-03-18"
+            "name": "Sarah",
+            "birthday": "2007-05-22"
         },
         {
-            "name": "Jane Smith",
-            "birthday": "2020-03-18"
+            "name": "Alena",
+            "birthday": "2007-07-08"
         },
         {
             "name": "Rihards 🇱🇻",
-            "birthday": "2008-03-19"
+            "birthday": "2008-03-18"
+        },
+        {
+            "name": "Kamran",
+            "birthday": "2007-07-21"
         }
     ]
 }
